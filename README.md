@@ -1,2 +1,2 @@
-# python_exercises_v3
-Updating exercises using Zed A. Shaw's version 3 book.
+# python_exercises
+From Zed Shaw's Learn Python The Hard Way -version 2
