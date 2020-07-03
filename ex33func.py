@@ -1,29 +1,30 @@
+
 def filler(i,j,k):
 	numbers = []
 
 	while i < j:
-		print"At the top i is %d" % i
+		print(f"At the top i is {i}")
 		numbers.append(i)
 	
-		i = i + k
-		print "Numbers now: ", numbers
-		print "At the bottom i is %d" % i
+		i += k
+		print("Numbers now: ", numbers)
+		print(f"At the bottom i is {i}")
 
-	print "The numbers: "
+	print("The numbers: ")
 
 	for i in numbers:
-		print i
+		print(i)
 
-print "Where to start?"
+print("Where to start?")
 
-top = input("> ")
+top = int(input("> "))
 
-print "Where to stop?"
+print("Where to stop?")
 
-bottom = input("> ")
+bottom = int(input("> "))
 
-print "Step size?"
+print("Step size?")
 
-step = input("> ")
+step = int(input("> "))
 
 filler(top,bottom,step)
