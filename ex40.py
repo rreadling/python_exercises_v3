@@ -26,6 +26,3 @@ my_song = Song(new_lyrics)
 
 # call on the mini-module to print your lyrics
 my_song.sing_me_a_song()
-
-
-
