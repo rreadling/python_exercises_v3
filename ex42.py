@@ -30,7 +30,7 @@ class Person(object):
 class Employee(Person):
 
     def __init__(self, name, salary):
-        ## ?? hmm what is this strange magic? I think super is-a Employee without salary
+        ## ?? hmm what is this strange magic?
         super(Employee, self).__init__(name)
         ## Employee has-a salary
         self.salary = salary
